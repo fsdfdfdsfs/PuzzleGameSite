@@ -1,1 +1,1 @@
-console.log("secret message");
+console.log("hidden.html");
