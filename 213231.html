@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+  body { background-color: white; }
+  .invisible {
+    color: white;
+    user-select: text;
+  }
+  .hidden { display: none; }
+</style>
+<body>
+    <div class="hidden">r=1, g=2, b=3</div>
+
+    <p class="invisible" id="line1"></p>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <p class="invisible" id="line2"></p>
+
+    <script src="aG93ZGlkeW91ZmluZHRoaXM.js"></script>
+    <script>
+      document.getElementById("line1").textContent = a;
+      document.getElementById("line2").textContent = b;
+    </script>
+</body>
+</html>
